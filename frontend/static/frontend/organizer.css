@@ -1,0 +1,59 @@
+.diaries-layout {
+	display: flex;
+}
+
+.search-box {
+	width: 20%;
+	flex-grow: 1;
+	min-height: 300px;
+	border: 1px solid black;
+	margin-right: 5px
+
+}
+
+.main-layout {
+	flex-grow: 4;
+	border: 1px gray solid;
+}
+
+.search-box-list li:hover {
+	background: gray;
+}
+
+form input {
+	display: block;
+}
+
+.diary-preview {
+	display: flex;
+}
+
+.diary-preview :first-child {
+	width: 20%;
+	display: flex;
+}
+
+.diary-preview :last-child {
+	width: 80%;
+}
+
+.diary-preview img {
+	width: 100%;
+	height: auto;
+	border-radius: 50%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+}
+
+.reference-map {
+	text-align: center;
+}
+
+.reference-map span {
+	color: blue;
+}
+.reference-map span:hover {
+	color: black;
+}
